@@ -1,0 +1,807 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    margin: 0px; 
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.div1
+{
+    border: 2px solid black;
+}
+.menu_bar
+{
+    padding: 0px 0px;
+}
+.logo
+{
+    padding-top: 17px;
+    text-align: center;
+}
+.menu_list ul li a
+{
+    color: black !important;
+    padding-right: 20px;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    font-weight:bold;
+}
+.menu_list .active a
+{
+    color: #ee308f !important;
+}
+.menu_list ul li a:hover
+{
+    color:#ee308f !important;
+    text-decoration: none;
+}
+.menu_button
+{
+    text-align: right;
+}
+.menu_button a
+{
+    background-color:#ee308f;
+    color: white;
+    font-size: 18px;
+    vertical-align: middle;
+    padding:5px 15px;
+    border-radius: 30px;   
+}
+.menu_button a:hover
+{
+    text-decoration: none;
+}
+#banner
+{
+    background-image: url('images/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+}
+.banner-heading h1
+{
+    font-size: 48px;
+    color: black;
+    font-weight: bold;
+}
+.banner-heading h1 span
+{
+    color:#ee308f ;
+}
+.banner-heading p
+{
+    color: black;
+    font-size: 18px;
+}
+.banner-button a
+{
+    background-color: #ee308f;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+.banner-button
+{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.services-heading h2
+{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding-top: 70px;
+}
+.services-heading h2 span
+{
+    color:#ee308f ;
+}
+.services-heading p
+{
+    font-size: 16px;
+    color: #818181;
+    text-align: center;
+    margin: 0px 20%;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.offers
+{
+    padding: 30px 40px;
+    padding-left: 120px;
+}
+.offers1
+{
+    padding: 30px 40px;
+    padding-right: 120px;
+}
+.services-offer 
+{
+    box-shadow: 0 4px 8px 0;
+    padding: 20px;
+}
+.services-offer  img
+{
+    text-align: center;
+}
+.services-offer  h5
+{
+    font-size: 28px;
+    font-weight: bold;
+    color: black;
+    padding: 20px 0px;
+}
+.services-offer p
+{
+    font-size: 1.8vw;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+.service-button a
+{
+    color: #ee308f;
+    text-align: center;
+    width: 40%;
+    height: 10%;
+    border: 1px solid #6e50ee;
+    padding: 10px 25px;
+    font-size: 18px;
+}
+.services-offer a:hover
+{
+    text-decoration: none;
+}
+#about-our-agency
+{
+    padding: 70px 0px;
+}
+.about-content
+{
+    padding: 20px;
+}
+.about-content h4
+{
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+.about-content h4 span
+{
+    color:#ee308f ;
+}
+.about-content p
+{
+    font-size: 16px;
+    padding-top: 12px;
+}
+#order
+{
+    background-image: url('images/pink-back.png');
+    margin: 40px 0px;
+    text-align: center;
+    padding-top: 40px;
+}
+.order-info h1
+{
+    font-size: 4.3vw;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.order-info p
+{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.instagram-content h5
+{
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.instagram-content h5 span
+{
+    color: #ee308f;
+}
+.instagram-content p
+{
+    font-size: 16px;
+    color: #818181;
+}
+.instagram-content
+{
+    padding: 20px;
+}
+.instagram
+{
+    background-color: #ffffff;
+    border: 2px solid #ee308f;
+    border-radius: 10px;  
+    margin-top: 60px;
+    width: 100%;
+}
+.social-icon
+{
+    font-size: 30px;
+    color: white;
+    background-color:#6444ed ;
+    display: inline-block;
+    padding: 0px !important;
+    height: 50px !important;
+    width: 50px;
+    border-radius: 8px 0px 0px 8px;
+    text-align: center;
+}
+.instagram input
+{
+    color:#818181 !important;
+    display: inline-block;
+    font-size: 16px;
+    border: none !important;
+    padding-top: 10px;
+  
+}
+#social-text
+{
+    color:#818181 !important;
+    display: inline-block;
+    font-size: 16px;
+    border: none !important;
+    padding: 40px 0px;
+}
+.free-trail
+{   
+    width: 80%; 
+    padding: 10px;
+    background:linear-gradient(to top,#da359e,#ab3bbe,#8d3fd2,#6743eb);
+    border-radius:30px;
+    margin: 20px 0px;    
+    float: left;    
+}
+.free-trail a
+{
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 15px 6vw;
+}
+#instagram
+{
+    padding: 50px 0px;
+}
+.insta-content h5
+{
+    font-size: 3.5vw;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+.insta-content h5 span
+{
+    color: #ee308f;
+}
+.insta-content p
+{
+    font-size: 16px;
+    color:#818181; 
+    text-align: center;
+}
+.insta-post p
+{
+    color: black;
+    font-size: 16px;
+    text-align: left;  
+    display: block; 
+    font-weight: bold;
+}
+.insta-post p span
+{
+    color: #818181;
+}
+.buy-button a
+{
+    background: linear-gradient(to top,#da359e,#ab3bbe,#8d3fd2,#6743eb);
+    padding: 8px 100px;
+    width: 100%;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+.buy-button a:hover
+{
+    text-decoration: none;
+}
+.head-line h5
+{
+    font-size: 3.5vw;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+}
+.head-line h5 span
+{
+    color:#ee308f ;
+}
+/* swipper classes*/
+.sliders
+{
+    width: 100%;
+    height: 80%;
+    margin: 20px 20px;
+}
+.sliders1
+{
+    margin-left: 70px;
+}
+.sliders2
+{
+    margin-right: 70px;
+}
+.content-box
+{
+    background-image: url('images/customer-box.png');    
+    height: 50%;
+    box-shadow: 0 4px 8px 0;
+    padding: 40px 20px;
+    text-align: justify;
+}
+.content-box p
+{
+    font-size: 14px;
+    color: black;
+}
+.john-deo
+{
+    padding: 20px 0px;
+    width: 100%;
+}
+.john-deo img
+{
+    float: left;
+    margin-right: 10px;
+}
+.john-deo h6
+{
+    font-size: 18px; 
+    margin: 0px 10px; 
+}
+.john-deo p
+{
+    font-size: 12px;   
+}
+.swiper-container {
+    width: 80%;
+    height: 100%;
+}
+.swiper-slide 
+{  
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+  /*swipper classes ends*/
+#portfolio h5
+{
+      font-size: 3.5vw;
+      color: black;
+      text-align: center;
+      font-weight: bold;
+}
+#portfolio h5 span
+{
+      color: #ee308f;
+}
+.portfolio-link ul
+{
+      text-decoration: none;
+      list-style-type: none;
+      text-align: center;
+}
+.portfolio-link ul li
+{
+      display: inline-block;
+      margin: 10px;
+      text-align: center;
+
+}
+.portfolio-link ul li a
+{
+      color: black;
+      font-size: 18px;
+      text-transform: uppercase;
+}
+.portfolio-link .list1 a
+{
+      color: #6444ed !important;
+}
+#user-query
+{
+    padding-top: 50px;
+}
+.footer-logo img
+{
+   padding: 50% 30px;
+}
+.user-form h1
+{
+    font-size: 4vw;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: black;
+}
+.user-form h1 span
+{
+    color: #ee308f ;
+}
+.user-form input
+{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #909090 ; 
+    margin: 5px 0px;   
+}
+.user-form textarea
+{
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid #909090 ;
+    padding: 10px 0px;
+}
+.submit-button input
+{
+    width: 30%;
+    background-color: #ee308f;
+    color: white;
+    font-size: 2.4vw;
+    border-style: none;
+    padding: 5px 0px;
+    margin-top: 40px;
+}
+.footer-menu
+{
+    background-color: #ee308f;
+}
+
+.footer_menu_list a
+{
+    display: inline-block;
+    margin:0px 30px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    list-style-type: none;
+   text-decoration: none;   
+   text-align: center;
+}
+.footer_menu_list  a:hover
+{
+    text-decoration: none;
+}
+.copyright
+{
+    background-color: #a22061;
+}
+.copyright p
+{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) 
+{
+    .banner-heading h1
+    {
+        font-size: 35px !important;
+        padding-left: 20px;
+    }
+    .banner-heading p
+    {
+        font-size: 14px;
+        padding-left: 20px;
+    }
+    .banner-button a
+    {
+        padding: 8px 18px;
+        font-size: 14px;
+        margin-left: 20px;
+    }
+    .offers
+    {
+        margin: 0px 20px;
+        padding-right: 0px !important;
+        padding-left: 50px !important;  
+    }
+    .services-offer 
+    {
+        padding: 20px 0px;
+        margin: 0px;
+        width: 80%;
+    }
+    .offers1
+    {
+        margin: 0px 20px;
+        padding-right: 0px !important;  
+        padding-left: 50px !important;      
+    }
+    .services-heading h2
+    {
+        font-size: 30px !important;
+    }
+    .services-offer  h5
+    {
+        font-size: 22px;
+    }
+    .services-offer  p
+    {
+        font-size: 14px;
+        padding-top: 10px;
+    }
+    .service-button a
+    {
+        font-size: 15px;
+    } 
+   #about-our-agency .about-content h4
+    {
+        font-size: 30px !important;
+    }
+    .about-content p
+    {
+        font-size: 14px !important;
+    }
+    .order-info p
+    {
+        font-size: 16px;
+    }
+    .instagram-content p
+    {
+        font-size: 14px;
+        color: #818181;
+    }
+    .insta-content h5
+    {
+        font-size: 25px !important;
+    }
+    .insta-content p
+    {
+        font-size: 14px;
+    }
+    .insta-post p
+    {
+        font-size: 11px;       
+    }
+    .buy-button a
+    {
+        padding: 8px 40px !important;
+        width: 50%;  
+        font-size: 14px;   
+    }
+    .content-box
+    {
+        padding: 20px 20px;
+    }
+    .john-deo p
+    {
+        font-size: 10px;   
+    }
+    .john-deo h6
+    {
+        font-size: 16px; 
+    }
+    .head-line h5
+    {
+        font-size: 25px !important;
+    }
+    #portfolio h5
+    {
+        font-size: 25px !important;
+    }
+    .portfolio-link ul li a
+    {
+        font-size: 15px !important;
+    }
+    #user-query
+    {
+        padding-top: 0px !important;
+    }    
+    .footer_menu_list a
+    {
+        font-size: 14px !important;
+        margin:0px 15px;
+        text-align: left;
+        display: block !important;
+    }    
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (min-width: 576px) and (max-width: 767.98px) 
+{
+    .banner-heading h1
+    {
+        font-size: 40px !important;
+    }
+    .about-content h4
+    {
+        font-size: 35px !important;
+    }
+    .about-content p
+    {
+        font-size: 14px !important;
+    }
+    .order-info p
+    {
+        font-size: 17px !important;
+    }
+    .instagram-content h5
+    {
+        font-size: 25px;
+    }
+    .instagram
+    {
+        width: 100% !important;         
+    }
+    #social-text
+    {
+        font-size: 14px !important;       
+    }
+    .free-trail
+    {
+        width: 70%;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+    }
+    .content-box p
+    {
+        font-size: 12px;
+        color: black;
+    }
+    .john-deo h6
+    {
+        font-size: 16px; 
+        margin: 0px 10px; 
+    }
+    .footer-logo img
+    {
+    padding: 20% 30px;
+    }
+    #user-query
+    {
+        padding-top: 20px;
+    }
+    .footer_menu_list a
+    {
+        font-size: 14px !important;
+        margin:0px 15px;
+    }
+    .footer_menu_list a:nth-child(7)
+    {
+        display: none !important; 
+    }
+    .copyright p
+    {
+        font-size: 12px;
+    }  
+    .footer_menu_list a
+    {
+        font-size: 14px !important;
+        margin:0px 15px;
+        text-align: left;
+        display: block !important;
+    }   
+
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (min-width: 768px) and (max-width: 991.98px) 
+{
+    .offers
+    {
+        padding: 20px 0px;
+        padding-left: 0px;
+    }
+    .offers1
+    {
+        padding: 20px 0px;
+        padding-right: 0px;
+    }
+    .youtube
+    {
+        text-align: left !important;
+    }
+    .insta-post p
+    {
+        font-size: 13px !important;       
+    }
+    .buy-button a
+    {
+        padding: 8px 60px;
+        width: 80%;     
+    }
+    .footer_menu_list a
+    {
+        font-size: 16px;
+        margin:0px 15px;
+    }
+    .footer_menu_list a:nth-child(8)
+    {
+        display: none;
+    }
+    
+} 
+
+/*Large devices (desktops, less than 1200px)*/
+@media (min-width: 992px) and (max-width: 1199.98px) 
+{
+    .graphic h5
+    {
+        padding-top: 0px;
+    }
+    .youtube
+    {
+        text-align: center;
+    }
+    .footer_menu_list a:nth-child(8)
+    {
+        display: none;
+    }
+    .social-icon
+    {
+        font-size: 25px;
+        height: 40px !important;
+        width: 40px;      
+    }
+    #social-text
+    {
+        font-size: 13px;        
+    }
+    .free-trail
+    {
+        width: 100%;
+    }
+    
+    
+   
+
+}
+
